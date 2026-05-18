@@ -2,7 +2,7 @@
 
 This project rebuilds Antiwordle as a static site with a React-powered game island.
 
-You can try [Antiwordle](https://antiwordle.net/)
+You can try [Antiwordle](https://www.antiwordle.net/)
 The production architecture is:
 
 - Static HTML pages generated at build time.
@@ -32,7 +32,7 @@ The site uses a hybrid static model:
 For example, `/about` should resolve to a prebuilt file:
 
 ```text
-www.antiwordle.com/about/index.html
+www.antiwordle.net/about/index.html
 ```
 
 The browser URL can remain:
@@ -48,7 +48,7 @@ No runtime Node server or SSR service is required after deployment.
 The final build produces:
 
 ```text
-www.antiwordle.com/
+www.antiwordle.net/
 ├── index.html
 ├── about/
 │   └── index.html
@@ -173,7 +173,7 @@ The build flow is:
 2. A Node build script reads JSON content.
 3. The script uses react-dom/server to render static pages.
 4. The script writes all HTML files, robots.txt, and sitemap.xml.
-5. The resulting www.antiwordle.com directory is deployed as static files.
+5. The resulting www.antiwordle.net directory is deployed as static files.
 ```
 
 Current build script:
@@ -194,7 +194,7 @@ Use this command to view the generated static site, including footer, content pa
 npm run dev
 ```
 
-This command builds the site and serves `www.antiwordle.com` with a small local static server. Routes such as `/about`, `/privacy-policy`, and `/change-log` resolve to their generated `index.html` files.
+This command builds the site and serves `www.antiwordle.net` with a small local static server. Routes such as `/about`, `/privacy-policy`, and `/change-log` resolve to their generated `index.html` files.
 
 Use this command only when you want Vite's source dev server for the React game island:
 
@@ -230,7 +230,7 @@ Do not restore:
 
 ## Deployment
 
-The generated `www.antiwordle.com` directory is deployable to a static CDN.
+The generated `www.antiwordle.net` directory is deployable to a static CDN.
 
 Recommended deployment target:
 
