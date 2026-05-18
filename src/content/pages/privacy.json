@@ -1,0 +1,53 @@
+{
+  "path": "/privacy-policy",
+  "meta": {
+    "title": "Privacy Policy - Antiwordle",
+    "description": "Read the Antiwordle Privacy Policy to understand local storage, data use, and contact information."
+  },
+  "heading": "Privacy Policy",
+  "sections": [
+    {
+      "title": "Information stored on your device",
+      "body": [
+        "Antiwordle uses browser localStorage to remember game progress, settings, streaks, personal bests, and whether you have seen the introductory screen.",
+        "This information is stored in your browser and is used to make the game work across visits."
+      ]
+    },
+    {
+      "title": "Analytics and advertising",
+      "body": [
+        "This rebuilt version does not include advertising scripts or analytics scripts."
+      ]
+    },
+    {
+      "title": "Contact",
+      "body": [
+        "For privacy questions, contact info@antiwordle.com."
+      ]
+    },
+    {
+      "title": "Policy updates",
+      "body": [
+        "We may update this Privacy Policy as the site changes. The latest version will be published on this page."
+      ]
+    }
+  ],
+  "key": "privacy",
+  "updatedAt": "2026-05-18",
+  "canonical": "https://www.antiwordle.com/privacy-policy",
+  "linkTitle": "Go to Privacy Policy",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "item": "https://www.antiwordle.com/"
+    },
+    {
+      "name": "Privacy Policy",
+      "item": "https://www.antiwordle.com/privacy-policy"
+    }
+  ],
+  "faq": {
+    "title": "FAQ",
+    "items": []
+  }
+}

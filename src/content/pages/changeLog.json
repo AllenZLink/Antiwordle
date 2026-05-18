@@ -1,0 +1,39 @@
+{
+  "path": "/change-log",
+  "meta": {
+    "title": "Change Log - Antiwordle",
+    "description": "See recent updates, improvements, and version history for Antiwordle."
+  },
+  "heading": "Change Log",
+  "entries": [
+    {
+      "date": "2026-05-18",
+      "version": "1.0.0",
+      "title": "Static site rebuild",
+      "items": [
+        "Rebuilt the game project with Vite, React, and TypeScript.",
+        "Removed advertising, analytics, and third-party captured cache files.",
+        "Added a static site generation architecture with JSON-managed content.",
+        "Prepared Home, About, Contact US, Terms of Service, Privacy Policy, Change Log, Sitemap, robots.txt, and sitemap.xml outputs."
+      ]
+    }
+  ],
+  "key": "changeLog",
+  "updatedAt": "2026-05-18",
+  "canonical": "https://www.antiwordle.com/change-log",
+  "linkTitle": "Go to Change Log",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "item": "https://www.antiwordle.com/"
+    },
+    {
+      "name": "Change Log",
+      "item": "https://www.antiwordle.com/change-log"
+    }
+  ],
+  "faq": {
+    "title": "FAQ",
+    "items": []
+  }
+}

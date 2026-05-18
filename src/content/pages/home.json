@@ -1,0 +1,126 @@
+{
+  "path": "/",
+  "meta": {
+    "title": "Antiwordle - Play the Reverse Wordle Game",
+    "description": "Play Antiwordle, a daily reverse Wordle game where you try to avoid guessing the hidden word for as many turns as possible."
+  },
+  "hero": {
+    "eyebrow": "Daily reverse word game",
+    "title": "Antiwordle",
+    "description": "Try to avoid the hidden word. Every guess narrows your options, and the best score is the one that lasts the longest."
+  },
+  "gameHeading": "Play Antiwordle",
+  "sections": [
+    {
+      "title": "What is Antiwordle?",
+      "body": [
+        "Antiwordle is a daily word game inspired by Wordle, but the goal is reversed. Instead of trying to find the secret word quickly, you try to avoid guessing it for as many turns as possible.",
+        "Each guess gives you strict information. Letters that are not in the answer become unavailable, letters that are in the answer must be reused, and letters in the correct position become locked."
+      ]
+    },
+    {
+      "title": "How to play Antiwordle",
+      "body": [
+        "Enter a valid five-letter word and submit it as your guess.",
+        "Gray letters are not in the hidden word and cannot be used again.",
+        "Yellow letters are in the hidden word and must appear in future guesses.",
+        "Red letters are in the correct position and must stay fixed in that position.",
+        "The round ends when you finally guess the hidden word. A longer run is better."
+      ],
+      "examples": [
+        {
+          "label": "Make a valid five-letter guess.",
+          "tiles": [
+            { "letter": "S", "status": "blank" },
+            { "letter": "T", "status": "blank" },
+            { "letter": "A", "status": "blank" },
+            { "letter": "R", "status": "blank" },
+            { "letter": "E", "status": "blank" }
+          ]
+        },
+        {
+          "label": "Gray letters are out and cannot be used again.",
+          "tiles": [
+            { "letter": "S", "status": "excluded" },
+            { "letter": "T", "status": "blank" },
+            { "letter": "A", "status": "blank" },
+            { "letter": "R", "status": "blank" },
+            { "letter": "E", "status": "blank" }
+          ]
+        },
+        {
+          "label": "Yellow letters must appear in later guesses.",
+          "tiles": [
+            { "letter": "C", "status": "blank" },
+            { "letter": "R", "status": "included" },
+            { "letter": "A", "status": "blank" },
+            { "letter": "N", "status": "blank" },
+            { "letter": "E", "status": "blank" }
+          ]
+        },
+        {
+          "label": "Red letters are locked in place.",
+          "tiles": [
+            { "letter": "B", "status": "exact" },
+            { "letter": "R", "status": "included" },
+            { "letter": "A", "status": "blank" },
+            { "letter": "V", "status": "blank" },
+            { "letter": "E", "status": "blank" }
+          ]
+        },
+        {
+          "label": "The game ends when your guess matches the hidden word.",
+          "tiles": [
+            { "letter": "B", "status": "exact" },
+            { "letter": "R", "status": "exact" },
+            { "letter": "A", "status": "exact" },
+            { "letter": "V", "status": "exact" },
+            { "letter": "E", "status": "exact" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How is Antiwordle different from Wordle?",
+      "body": [
+        "Wordle rewards fast solving. Antiwordle rewards delay, planning, and careful avoidance.",
+        "In Wordle, green letters help you win sooner. In Antiwordle, red letters trap you. The more information you reveal, the harder it becomes to keep the game alive."
+      ]
+    }
+  ],
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Is Antiwordle free to play?",
+        "answer": "Yes. Antiwordle is free to play in your browser."
+      },
+      {
+        "question": "Is there a new puzzle every day?",
+        "answer": "Yes. The game uses a daily word sequence, so everyone gets the same challenge for the day."
+      },
+      {
+        "question": "What is a good Antiwordle score?",
+        "answer": "A good score is a high number of guesses. The longer you avoid the final answer, the better your run."
+      },
+      {
+        "question": "Can I reuse gray letters?",
+        "answer": "No. Once a letter is marked gray, the keyboard disables it and future guesses cannot use it."
+      },
+      {
+        "question": "What does Hard Mode change?",
+        "answer": "Hard Mode adds stricter rules around yellow letters and repeated letters, making it harder to delay the answer."
+      }
+    ]
+  },
+  "key": "home",
+  "updatedAt": "2026-05-18",
+  "canonical": "https://www.antiwordle.com/",
+  "linkTitle": "Go to Antiwordle home",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "item": "https://www.antiwordle.com/"
+    }
+  ]
+}

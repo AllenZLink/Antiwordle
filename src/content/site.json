@@ -1,0 +1,66 @@
+{
+  "name": "Antiwordle",
+  "baseUrl": "https://www.antiwordle.com",
+  "defaultTitle": "Antiwordle - Play the Reverse Wordle Game",
+  "defaultDescription": "Play Antiwordle, the reverse Wordle game where the goal is to avoid guessing the hidden word for as long as possible.",
+  "footer": {
+    "tagline": "Antiwordle is a daily reverse word game built for careful guesses, strange constraints, and one more try.",
+    "copyright": "© 2026 Antiwordle. All rights reserved."
+  },
+  "headerNavigation": [
+    {
+      "label": "Home",
+      "href": "/",
+      "title": "Go to Home"
+    },
+    {
+      "label": "Contact US",
+      "href": "/contact-us",
+      "title": "Go to Contact US"
+    }
+  ],
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/",
+      "title": "Go to Home"
+    },
+    {
+      "label": "About",
+      "href": "/about",
+      "title": "Go to About"
+    },
+    {
+      "label": "Contact US",
+      "href": "/contact-us",
+      "title": "Go to Contact US"
+    },
+    {
+      "label": "Change Log",
+      "href": "/change-log",
+      "title": "Go to Change Log"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy",
+      "title": "Go to Privacy Policy"
+    },
+    {
+      "label": "Terms of Service",
+      "href": "/terms-of-service",
+      "title": "Go to Terms of Service"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap",
+      "title": "Go to Sitemap"
+    }
+  ],
+  "robots": {
+    "rules": [
+      "User-agent: *",
+      "Allow: /",
+      "Sitemap: https://www.antiwordle.com/sitemap.xml"
+    ]
+  }
+}

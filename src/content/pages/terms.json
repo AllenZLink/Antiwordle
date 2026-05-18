@@ -1,0 +1,53 @@
+{
+  "path": "/terms-of-service",
+  "meta": {
+    "title": "Terms of Service - Antiwordle",
+    "description": "Read the Terms of Service for using the Antiwordle website and daily word game."
+  },
+  "heading": "Terms of Service",
+  "sections": [
+    {
+      "title": "Use of the site",
+      "body": [
+        "By using Antiwordle, you agree to use the site for lawful, personal, and non-commercial purposes.",
+        "You may not attempt to disrupt the site, abuse the game, or interfere with other users' access."
+      ]
+    },
+    {
+      "title": "Game content",
+      "body": [
+        "The game is provided for entertainment. We may update words, rules, presentation, or availability over time."
+      ]
+    },
+    {
+      "title": "No warranty",
+      "body": [
+        "Antiwordle is provided as is, without warranties of any kind. We do not guarantee uninterrupted access or error-free operation."
+      ]
+    },
+    {
+      "title": "Changes to these terms",
+      "body": [
+        "We may update these terms from time to time. Continued use of the site after changes means you accept the revised terms."
+      ]
+    }
+  ],
+  "key": "terms",
+  "updatedAt": "2026-05-18",
+  "canonical": "https://www.antiwordle.com/terms-of-service",
+  "linkTitle": "Go to Terms of Service",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "item": "https://www.antiwordle.com/"
+    },
+    {
+      "name": "Terms of Service",
+      "item": "https://www.antiwordle.com/terms-of-service"
+    }
+  ],
+  "faq": {
+    "title": "FAQ",
+    "items": []
+  }
+}

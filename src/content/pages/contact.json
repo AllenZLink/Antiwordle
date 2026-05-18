@@ -1,0 +1,41 @@
+{
+  "path": "/contact-us",
+  "meta": {
+    "title": "Contact US - Antiwordle",
+    "description": "Contact the Antiwordle team for feedback, questions, bug reports, or site-related requests."
+  },
+  "heading": "Contact US",
+  "sections": [
+    {
+      "title": "Get in touch",
+      "body": [
+        "Questions, feedback, bug reports, and suggestions are welcome.",
+        "You can contact us by email at info@antiwordle.com."
+      ]
+    },
+    {
+      "title": "Helpful details to include",
+      "body": [
+        "If you are reporting a bug, please include your browser, device, the date of the puzzle, and what happened before the issue appeared."
+      ]
+    }
+  ],
+  "key": "contact",
+  "updatedAt": "2026-05-18",
+  "canonical": "https://www.antiwordle.com/contact-us",
+  "linkTitle": "Go to Contact US",
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "item": "https://www.antiwordle.com/"
+    },
+    {
+      "name": "Contact US",
+      "item": "https://www.antiwordle.com/contact-us"
+    }
+  ],
+  "faq": {
+    "title": "FAQ",
+    "items": []
+  }
+}
